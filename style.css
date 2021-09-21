@@ -6,11 +6,34 @@
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
+main{
+    position: relative;
+}
+#menu{
+    position: fixed;
+    top: 5vh;
+    right: 0;
+    z-index: 999;
+    margin-right: 20px;
+}
+#menu li{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    
+    font-size: 2vh;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    text-align: center;
+}
 .banner{
     height: 100vh;
     position: relative;
 }
 .conteiner{
+    margin-top: 5vh;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -18,15 +41,15 @@ body{
     
 }
 img{
-    max-width: 100%;
+    max-width: 100%
 }
 
 .text{
     color: yellow;
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: bold;
     text-align: center;
-   
+
 }
 #red{
     background-color: red;
